@@ -1,0 +1,166 @@
+:root{
+    --color-grimery:#434455;
+    --color-brend:#4D5AE5;
+    --color-brend-hover:#404BBF;
+    --color-secundery:#2E2F42;
+    --color-hero-title-text:#FFF;
+    --color-hero-button-text:#FFF;
+    --backraund-section-our-team:#F4F4FD;
+    --footer-logo:#F4F4FD;
+    --footer-text:#F4F4FD;
+--backraundcolor-body:#FFFFFF;
+}
+body{
+    color:var(--color-grimery);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color:var(--backraundcolor-body)
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* header */
+.logo-header{
+    color: var(--color-brend);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+     text-transform: uppercase;
+}
+.akcent-hrader-logo{
+   color: var(--color-secundery); 
+}
+.header-link{
+    color: var(--color-secundery);
+    text-decoration: none;
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        font-style: normal;
+        letter-spacing: 0.02em;
+        
+}
+.header-link:hover,.header-link:focus{
+    color: var(--color-brend-hover);
+}
+.contacts-link{ color: var(--color-grimery);
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
+
+}
+.contacts-link:hover,.contacts-link:focus{color: var(--color-brend-hover);
+    
+}
+/* herro-section */
+.hero-section{
+    background-color: var(--color-secundery);
+}
+.hero-title{
+    color:var(--color-hero-title-text);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-button{background-color:var(--color-brend);
+    color: var(--color-hero-button-text);
+    border: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+
+}
+.hero-button:hover,.hero-button:focus{
+background-color: var(--color-brend-hover);
+}
+.advantages-title{
+    color: var(--color-secundery);
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 1.2
+}
+.text-advantages{
+    color: var(--color-grimery);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* our-team-sections */
+.our-team-sections{
+    background-color: var(--backraund-section-our-team);
+}
+.title-sections{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-secundery);
+    
+}
+.baskgraund-person{
+    background-color:var(--color-hero-title-text);
+}
+.name-employees{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-secundery);
+}
+
+.profetion{
+    
+    color: var(--color-grimery);
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+/* portfolio */
+.servises{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color-secundery);
+}
+.activity{
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+/* footer */
+.footer-sections{
+    background-color: var(--color-secundery);
+}
+.footer-logo{
+color:var(--color-brend);
+text-decoration: none;
+font-family: 'Raleway',sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+text-transform: uppercase;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+.footer-logo-akcent{
+color: var(--backraund-section-our-team)
+
+}
+.footer-text{
+    color: var(--footer-text);
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
