@@ -115,11 +115,13 @@ img {
     flex-direction: row;
     gap: 24px;
     align-items: center;
+
 }
 
 
 .navigation-list-item {
-    margin-left: 40px;
+    margin-left: 73px;
+
 }
 
 .navigation-link-item-name {
@@ -319,7 +321,7 @@ img {
 }
 
 .team-name-position {
-    padding: 32px 8;
+    padding: 32px 0;
 }
 
 .team-list-item-name {
@@ -373,6 +375,7 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
 
