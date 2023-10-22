@@ -113,7 +113,7 @@ img {
 .navigation-list {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 40px;
     align-items: center;
 
 }
