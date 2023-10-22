@@ -115,6 +115,7 @@ img {
     flex-direction: row;
     margin: 40px;
     align-items: center;
+
 }
 
 
@@ -190,7 +191,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-
+    margin: 0 auto;
 
 }
 
@@ -320,7 +321,7 @@ img {
 }
 
 .team-name-position {
-    padding: 32px 8;
+    padding: 32px 0;
 }
 
 .team-list-item-name {
