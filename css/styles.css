@@ -150,6 +150,8 @@ img {
 }
 
 
+
+
 /* ----- ADDRESS ------ */
 .address {
     font-style: normal;
@@ -180,13 +182,37 @@ img {
     color: #404BBF;
 }
 
+.navigation-header-list {
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.navigation-header-list::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 100%;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 
 /* ----------- HERO SECTION ---------- */
 .hero-section {
-    background: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-     flex-shrink: 0; 
+    background: var(--NAVY-BLUE, #2e2f42);
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-title {
